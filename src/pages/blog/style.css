@@ -1,0 +1,27 @@
+.Blog-header {
+    padding: 20px;
+}
+
+.blog-content {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.blog-content h2, .blog-content h3 {
+    color: #0073e6;
+}
+
+.blog-content ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.blog-content a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.blog-content a:hover {
+    text-decoration: underline;
+}
