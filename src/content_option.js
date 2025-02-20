@@ -72,18 +72,18 @@ const dataportfolio = [
       "Reaction Time Testing Web Application - A real-time web app for reaction time measurement.",
     link: "https://github.com/PERSEUS-1337/reaction-time",
   },
-  {
-    img: "https://picsum.photos/400/800/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
+//   {
+//     img: "https://picsum.photos/400/800/?grayscale",
+//     description:
+//       "The wisdom of life consists in the elimination of non-essentials.",
+//     link: "#",
+//   },
+//   {
+//     img: "https://picsum.photos/400/?grayscale",
+//     description:
+//       "The wisdom of life consists in the elimination of non-essentials.",
+//     link: "#",
+//   },
 ];
 
 const contactConfig = {
