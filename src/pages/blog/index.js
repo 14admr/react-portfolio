@@ -18,7 +18,7 @@ export const Blog = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4"> SEO Guide for Developers </h1>
+            <h1 className="display-4 mb-4"> Blog </h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -80,7 +80,7 @@ export const Blog = () => {
               </a>
             </li>
           </ul>
-          
+
           <h3>Next Steps in My SEO Journey</h3>
           <p>
             I plan to practice SEO strategies on my projects, optimize page
