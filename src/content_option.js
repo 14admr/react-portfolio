@@ -1,166 +1,117 @@
-const logotext = "JOHN";
+const logotext = "DALE";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+  title: "Alesundreau Dale Ratuiste",
+  description:
+    "I'm a Web Developer specializing in MERN stack and frontend development.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
-    animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+  title: "I'm Alesundreau Dale Ratuiste",
+  animated: {
+    first: "I build modern web applications",
+    second: "I develop scalable backend systems",
+    third: "I create user-friendly interfaces",
+  },
+  description:
+    "A passionate web developer skilled in the MERN stack, specializing in building efficient and scalable applications.",
+  your_img_url: "/images/RATUISTEadm.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+  title: "A bit about myself",
+  aboutme:
+    "I'm a fresh Computer Science graduate from UPLB with experience in web development, backend development, and database management. Passionate about building scalable applications using the MERN stack.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+const worktimeline = [
+  {
+    jobtitle: "Web Developer Intern",
+    where: "UPLB CINTERLABS",
+    date: "June - July 2024",
+  },
+  {
+    jobtitle: "Frontend Developer",
+    where: "Freelance",
+    date: "January - March 2022",
+  },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const skills = [
+  { name: "HTML & CSS", value: 90 },
+  { name: "JavaScript", value: 90 },
+  { name: "React", value: 80 },
+  { name: "Node.js", value: 80 },
+  { name: "MongoDB", value: 80 },
+  { name: "Python", value: 80 },
+  { name: "SQL", value: 70 },
+  { name: "Java", value: 60 },
+  { name: "Flutter", value: 60 },
+  { name: "C", value: 60 },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
+  {
+    title: "Web Development",
+    description:
+      "I build modern, scalable web applications using React and Node.js.",
+  },
+  {
+    title: "Frontend Development",
+    description:
+      "I create responsive and accessible user interfaces with React and CSS.",
+  },
+  {
+    title: "API Development",
+    description: "I develop and optimize RESTful APIs.",
+  },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+const dataportfolio = [
+  {
+    img: "/images/ReactionTime.png",
+    description:
+      "Reaction Time Testing Web Application - A real-time web app for reaction time measurement.",
+    link: "https://github.com/PERSEUS-1337/reaction-time",
+  },
+  {
+    img: "https://picsum.photos/400/800/?grayscale",
+    description:
+      "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+  },
+  {
+    img: "https://picsum.photos/400/?grayscale",
+    description:
+      "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+  },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+  YOUR_EMAIL: "alesundreau@yahoo.com",
+  YOUR_FONE: "0976 294 0778",
+  description:
+    "Feel free to reach out for collaboration, job opportunities, or just to chat about web development!",
+  // creat an emailjs.com account
+  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+  YOUR_SERVICE_ID: "service_3zudwjf",
+  YOUR_TEMPLATE_ID: "template_lyd44kz",
+  YOUR_USER_ID: "wyKbgkPQ05oVEK0dJ",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+  github: "https://github.com/14admr",
+  facebook: "https://www.facebook.com/dale.ratuiste/",
+  linkedin: "https://www.linkedin.com/in/alesundreau-dale-ratuiste/",
 };
 export {
-    meta,
-    dataabout,
-    dataportfolio,
-    worktimeline,
-    skills,
-    services,
-    introdata,
-    contactConfig,
-    socialprofils,
-    logotext,
+  meta,
+  dataabout,
+  dataportfolio,
+  worktimeline,
+  skills,
+  services,
+  introdata,
+  contactConfig,
+  socialprofils,
+  logotext,
 };
